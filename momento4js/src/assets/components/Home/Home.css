@@ -1,14 +1,19 @@
+* {
+    font-family: 'EB Garamond', serif;
+}
+
 .wallpaper{
     background-image: url("https://firebasestorage.googleapis.com/v0/b/renting-63833.appspot.com/o/marita-kavelashvili-ugnrXk1129g-unsplash%20(2).jpg?alt=media&token=7ce3198a-7412-4f8b-ae65-9c7e3c4790e9");
 background-repeat: no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
-position: fixed;
+position: static;
 
 }  
 
 ul{
+    position: relative;
     text-align: center;
     list-style-position: inside;
     list-style: none;
@@ -20,7 +25,10 @@ ul{
    justify-content: center;
     width: fit-content;
     height: 100px;
-    background-color: lightgrey;
+background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
     border-radius: 0px 0px 20px 20px;
     
 }
@@ -49,7 +57,76 @@ a:hover{
     transform: scale(1.1);
 
 }
-img:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
+
+
+
+
+
+/* footer */
+footer{
+  position: static;
+}
+
+.custom-shape-divider-bottom-1691090866 {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+margin-top:100px;
+}
+
+.custom-shape-divider-bottom-1691090866 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 96px;
+}
+
+.custom-shape-divider-bottom-1691090866 .shape-fill {
+  fill: #000000;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 13.75rem;
+  width: 100%;
+  background-color: #000000;
+}
+.menu-bar2 {
+  transform: rotate(180deg);
+  width: 25%;
+  display: flex;
+  padding: 0.625rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link2 {
+  margin: 0.625rem;
+  text-decoration: none;
+  color: white;
+  font-size: 0.625rem;
+  font-size: large;
+}
+.nav-link2:hover {
+  color: #eecd5c;
+  opacity: 1;
+  border: solid white 2px;
+  scale: 1.1;
+  transition: 0.4s;
+}
+.logo {
+  position: relative;
+  transform: rotate(180deg);
+}
+.container-footer2{
+  width: 100%;
+position: relative;
+bottom: 0;
 }

@@ -1,3 +1,8 @@
+*{
+  font-family: 'EB Garamond', serif;
+}
+
+
 .section{
     display: flex;
     justify-content: center;
@@ -8,9 +13,22 @@
     display: flex;
     justify-content: center;
 }
+.container-form{
+  display: flex;
+  justify-content: center;
+}
 
 
 form{
+  background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+  width: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: 'EB Garamond', serif;
+  position: relative;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -48,10 +66,11 @@ form{
     color: #212121;
   }
 .container-inputs{
+  padding: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: row;    
+flex-direction: row;  
 }
 
 .button-31 {
@@ -81,6 +100,7 @@ flex-direction: row;
     touch-action: manipulation;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .button-31:hover,.button-31:focus {
