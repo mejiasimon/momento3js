@@ -1,0 +1,55 @@
+.wallpaper{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/renting-63833.appspot.com/o/marita-kavelashvili-ugnrXk1129g-unsplash%20(2).jpg?alt=media&token=7ce3198a-7412-4f8b-ae65-9c7e3c4790e9");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+position: fixed;
+
+}  
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+    align-items: center;
+   justify-content: center;
+    width: fit-content;
+    height: 100px;
+    background-color: lightgrey;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+li a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+li a img{
+    height: 250px;
+    width: 250px;
+
+}
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+a:hover{
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
